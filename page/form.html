@@ -25,14 +25,14 @@
 
         <hr>
         <label>Jenis Kelamin</label><br>
-        <input type="radio" name="gender" id="l"><label for="l">laki-laki</label>
-        <input type="radio" name="gender" id="p"><label for="p">Perempuan</label>
+        <input type="radio" name="gender" id="l" value="L"><label for="l">laki-laki</label>
+        <input type="radio" name="gender" id="p" value="P"><label for="p">Perempuan</label>
         <br>
         <label>Bahasa yang dikuasai</label><br>
-        <input type="checkbox" name="lang" id="js"><label for="js">JS</label>
-        <input type="checkbox" name="lang" id="css"><label for="css">CSS</label>
-        <input type="checkbox" name="lang" id="html"><label for="html">HTML</label>
-        <input type="checkbox" name="lang" id="php"><label for="php">PHP</label>
+        <input type="checkbox" name="lang" id="js" value="js"><label for="js">JS</label>
+        <input type="checkbox" name="lang" id="css" value="css"><label for="css">CSS</label>
+        <input type="checkbox" name="lang" id="html" value="html"><label for="html">HTML</label>
+        <input type="checkbox" name="lang" id="php" value="php"><label for="php">PHP</label>
         <br>
         <label for="lang-drop">Bahasa yang dikuasai</label><br>
         <select name="lang-drop" id="lang-drop">
@@ -41,7 +41,10 @@
             <option value="css">CSS</option>
             <option value="html">HTML</option>
             <option value="php">PHP</option>
-        </select>
+        </select><br>
+        <label for="kns">Keluhan dan Saran</label><br>
+        <textarea name="kns" id="kns" cols="50" rows="2"></textarea><br>
+        <input type="submit" value="submit">
     </form>
 </body>
 
